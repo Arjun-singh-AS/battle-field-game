@@ -15,8 +15,10 @@ const ServerInfo = () => {
     const [advanced, setAdvanced] = useState({});
     const [rules, setRules] = useState({});
 
+    const backendUrl = 'https://battlefield-game-backend.onrender.com';
+
     const getServerInfo = async () => {
-        const res = await axios.get('http://localhost:4000/api/serverinfo/getInfo');
+        const res = await axios.get(`${backendUrl}/api/serverinfo/getInfo`);
         const { info } = res.data;
         setSettings(info.settings);
         setAdvanced(info.advanced);
