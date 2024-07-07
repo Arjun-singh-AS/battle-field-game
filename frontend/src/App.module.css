@@ -1,0 +1,12 @@
+.container {
+    background-image: linear-gradient(rgba(16, 16, 16, .6), rgba(16, 16, 16, .6)), url(https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/601abb0b487fc1bfc56a1c3b_menu__background-30blur.jpg);
+    background-position: 0 0, -70vh -20vh;
+    background-size: auto, 360vh;
+    display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+    }
+}

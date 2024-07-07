@@ -1,0 +1,194 @@
+.container {
+    padding: 20px 0;
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    width: 90vw;
+}
+
+.header {
+    font-weight: 600;
+}
+
+pre {
+    display: flex;
+    align-items: center;
+}
+
+.serverInfo {
+    font-size: 35px;
+}
+
+.details {
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.firstPara {
+    font-size: 20px;
+}
+
+.secondPara,
+.thirdPara {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.buttonsDiv {
+    margin-top: 35px;
+    display: flex;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+button {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    border: 2px solid #807e79;
+    border-radius: 5px;
+    padding: 10px 35px;
+    background-color: transparent;
+    color: white;
+    min-width: 200px;
+    letter-spacing: 1px;
+}
+
+.lastBtn {
+    display: flex;
+    align-items: center;
+}
+
+.lastBtn>span {
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.numericDiv {
+    font-weight: 600;
+    margin-top: 30px;
+    display: flex;
+    column-gap: 70px;
+}
+
+.upperPara {
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.belowPara {
+    font-size: 20px;
+}
+
+.tablesDiv {
+    margin-top: 30px;
+    display: flex;
+    column-gap: 40px;
+}
+
+.heading {
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.tablesDiv span {
+    font-weight: 500;
+}
+
+.columnDiv {
+    width: 350px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    width: 100%;
+    margin-bottom: 7px;
+    margin-top: 3px;
+    background-color: #807e79;
+    border: none;
+    height: 1px;
+}
+
+
+@media screen and (max-width: 550px) {
+    .container {
+        width: 100vw;
+        padding: 0 15px 15px 15px;
+    }
+
+    .header pre {
+        font-size: 18px;
+    }
+
+    .serverInfo {
+        font-size: 30px;
+    }
+
+    .details>p {
+        margin-bottom: 10px;
+    }
+
+    .buttonsDiv {
+        justify-content: center;
+        row-gap: 40px;
+    }
+
+    .numericDiv {
+        justify-content: space-between;
+    }
+
+    .tablesDiv {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .columnDiv {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 551px) and (max-width: 1000px) {
+    .container {
+        width: 100vw;
+        padding: 0 30px 30px 30px;
+    }
+
+    .header pre {
+        font-size: 22px;
+    }
+
+    .details>p {
+        margin-bottom: 10px;
+    }
+
+    .buttonsDiv {
+        justify-content: center;
+        column-gap: 100px;
+        row-gap: 50px;
+    }
+
+    .numericDiv {
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+
+    .tablesDiv {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .columnDiv {
+        width: 85%;
+    }
+}

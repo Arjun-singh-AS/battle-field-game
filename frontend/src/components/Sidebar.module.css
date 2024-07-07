@@ -1,0 +1,70 @@
+.container {
+    padding-left: 20px;
+    padding-right: 30px;
+    display: flex;
+    width: 10vw;
+}
+
+.imagesDiv {
+    padding-top: 10vh;
+    margin-right: 20px;
+}
+
+.imgDiv {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.help {
+    margin-top: 80px;
+}
+
+.lineDiv {
+    width: 1px;
+    background-color: #807e79;
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        flex-direction: column;
+        width: 100vw;
+        padding: 0 15px;
+    }
+
+    .imagesDiv {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .imgDiv {
+        margin-right: 20px;
+    }
+
+    .help {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 551px) and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        width: 100vw;
+        padding: 30px;
+    }
+
+    .imagesDiv {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+
+    .imgDiv {
+        margin-right: 20px;
+    }
+
+    .help {
+        margin-top: 0;
+    }
+}
