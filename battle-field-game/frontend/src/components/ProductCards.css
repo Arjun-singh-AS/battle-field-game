@@ -1,0 +1,49 @@
+/* ProductCards.css */
+
+/* Container for the product cards */
+.product-cards-container {
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+  }
+  
+  .product-card {
+    
+    color: white;
+    border: 1px solid #333; /* dark border */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    width: 200px; /* Fixed width for each card */
+    height: 350px; /* Fixed height for each card */
+    /* padding: 16px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .product-image {
+    width: 200px; /* Fixed width */
+    height: 200px; /* Fixed height */
+    object-fit: contain;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center; /* Centers text horizontally */
+    display: flex;
+    justify-content: center; /* Centers horizontally if using flexbox */
+    align-items: center; /* Centers vertically if needed */
+    width: 100%; /* Ensure it takes up the full width for centering */
+  }
+  
+  .product-description {
+    font-size: 14px;
+    text-align: center;
+    color: #d1d1d1; /* Light gray for description */
+  }
+  

@@ -83,7 +83,7 @@ const ServerInfo = () => {
                 <div>
                     <p className={styles.upperPara}>PING</p>
                     <p className={styles.belowPara}>47ms</p>
-                </div>
+                </div>                                                                                              
                 <div>
                     <p className={styles.upperPara}>TICKRATE</p>
                     <p className={styles.belowPara}>60 Hz</p>

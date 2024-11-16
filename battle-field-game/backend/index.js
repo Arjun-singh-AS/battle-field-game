@@ -26,6 +26,7 @@ app.listen(PORT, async () => {
         console.log(`server is running at PORT: ${PORT} and database is connected successfully`);
     }
     catch (err) {
+        console.log(err)
         console.log('database not connected');
     }
 })
